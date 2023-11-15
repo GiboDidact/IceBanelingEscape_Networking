@@ -1,0 +1,13 @@
+ServerIPV4= 0.0.0.0		//IPV4 address of server (0.0.0.0)
+ServerPort= 55000			//Server port number (49152-65535)
+STANDALONE= 0			//run without lobby system (0 or 1)
+STANDALONE_PLAYER_COUNT= 1 //how many clients can connect
+SERVER_LEVEL_SWITCH= 0  //server can swap levels hitting keys: 1-6(0 or 1)
+INFINITE_LIVES= 0   //server resets player to current level on death(0 or 1)
+FULL_SCREEN= 0         //runs in fullscreen(0 or 1)
+GOD_MODE= 0         //server lets everyone have god mode(0 or 1)
+
+***Only change values in this file.
+If anything else changes default values
+will be used and file will be recreated.
+If you want to reset just destroy file ***

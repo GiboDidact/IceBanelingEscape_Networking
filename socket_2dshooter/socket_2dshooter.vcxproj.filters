@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SharedSrc\main_test.cpp" />
+    <ClCompile Include="SharedSrc\pch.cpp" />
+    <ClCompile Include="SharedSrc\GraphicsManager.cpp" />
+    <ClCompile Include="SharedSrc\Util\Camera.cpp">
+      <Filter>SharedSrc\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedSrc\Util\Input_Manager.cpp">
+      <Filter>SharedSrc\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedSrc\Game\NetworkDelivery.cpp">
+      <Filter>SharedSrc\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedSrc\ThirdParty\stb_image.cpp">
+      <Filter>SharedSrc\ThirdParty</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SharedSrc\ConfigInfo.h" />
+    <ClInclude Include="SharedSrc\GraphicsManager.h" />
+    <ClInclude Include="SharedSrc\pch.h" />
+    <ClInclude Include="SharedSrc\sharedpch.h" />
+    <ClInclude Include="SharedSrc\Sockets\BitStream.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Util\Camera.h">
+      <Filter>SharedSrc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Game\game_logic.h">
+      <Filter>SharedSrc\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Game\game_packets.h">
+      <Filter>SharedSrc\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Game\gameinclude.h">
+      <Filter>SharedSrc\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Util\Input_Manager.h">
+      <Filter>SharedSrc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Util\Logger.h">
+      <Filter>SharedSrc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\WSA_Helper.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\UDP_Socket.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\TCP_Socket.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\SocketInc.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\SocketAddr_Helper.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\Socket_Helper.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\PingEmulator.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\packetdefs.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Game\NetworkDelivery.h">
+      <Filter>SharedSrc\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\ThirdParty\stb_image.h">
+      <Filter>SharedSrc\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Sockets\shared_structs.h">
+      <Filter>SharedSrc\Sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Game\shared_game_structs.h">
+      <Filter>SharedSrc\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Util\Timer.h">
+      <Filter>SharedSrc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Util\Quaternion.h">
+      <Filter>SharedSrc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedSrc\Util\Global_Functions.h">
+      <Filter>SharedSrc\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="practice_code.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SharedSrc">
+      <UniqueIdentifier>{3684ec1d-a7ee-45cc-afe5-bb06e8507134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSrc\Game">
+      <UniqueIdentifier>{8ae6e59f-f898-48ce-a26a-3b6813ba87f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSrc\Sockets">
+      <UniqueIdentifier>{4a9773bf-449a-460f-a922-9dcb1225ab14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSrc\ThirdParty">
+      <UniqueIdentifier>{5888e3ff-c6d2-4bd5-b658-8bf6248802af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SharedSrc\Util">
+      <UniqueIdentifier>{c0d64d34-4573-44db-b7e7-b25d369ec68f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

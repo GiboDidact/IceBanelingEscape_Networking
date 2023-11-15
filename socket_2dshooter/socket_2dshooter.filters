@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SharedSrc\Game\NetworkDelivery.cpp" />
+    <ClCompile Include="SharedSrc\main_test.cpp" />
+    <ClCompile Include="SharedSrc\pch.cpp" />
+    <ClCompile Include="SharedSrc\ThirdParty\stb_image.cpp" />
+    <ClCompile Include="SharedSrc\Util\Camera.cpp" />
+    <ClCompile Include="SharedSrc\GraphicsManager.cpp" />
+    <ClCompile Include="SharedSrc\Util\Input_Manager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SharedSrc\ConfigInfo.h" />
+    <ClInclude Include="SharedSrc\Game\gameinclude.h" />
+    <ClInclude Include="SharedSrc\Game\game_logic.h" />
+    <ClInclude Include="SharedSrc\Game\game_packets.h" />
+    <ClInclude Include="SharedSrc\Game\NetworkDelivery.h" />
+    <ClInclude Include="SharedSrc\Game\shared_game_structs.h" />
+    <ClInclude Include="SharedSrc\GraphicsManager.h" />
+    <ClInclude Include="SharedSrc\pch.h" />
+    <ClInclude Include="SharedSrc\sharedpch.h" />
+    <ClInclude Include="SharedSrc\Sockets\BitStream.h" />
+    <ClInclude Include="SharedSrc\Sockets\packetdefs.h" />
+    <ClInclude Include="SharedSrc\Sockets\PingEmulator.h" />
+    <ClInclude Include="SharedSrc\Sockets\shared_structs.h" />
+    <ClInclude Include="SharedSrc\Sockets\SocketInc.h" />
+    <ClInclude Include="SharedSrc\Util\Timer.h" />
+    <ClInclude Include="Src\GraphicsManager.h" />
+    <ClInclude Include="SharedSrc\Sockets\SocketAddr_Helper.h" />
+    <ClInclude Include="SharedSrc\Sockets\Socket_Helper.h" />
+    <ClInclude Include="SharedSrc\Sockets\TCP_Socket.h" />
+    <ClInclude Include="SharedSrc\ThirdParty\stb_image.h" />
+    <ClInclude Include="SharedSrc\Sockets\UDP_Socket.h" />
+    <ClInclude Include="SharedSrc\Util\Camera.h" />
+    <ClInclude Include="SharedSrc\Util\Global_Functions.h" />
+    <ClInclude Include="SharedSrc\Util\Input_Manager.h" />
+    <ClInclude Include="SharedSrc\Util\Logger.h" />
+    <ClInclude Include="SharedSrc\Util\Quaternion.h" />
+    <ClInclude Include="SharedSrc\Sockets\WSA_Helper.h" />
+    <ClInclude Include="Src\SocketAddr_Helper.h" />
+    <ClInclude Include="Src\Socket_Helper.h" />
+    <ClInclude Include="Src\TCP_Socket.h" />
+    <ClInclude Include="Src\UDP_Socket.h" />
+    <ClInclude Include="Src\WSA_Helper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\font.frag" />
+    <None Include="Shaders\font.vert" />
+    <None Include="Shaders\main.frag" />
+    <None Include="Shaders\main.vert" />
+    <None Include="Shaders\particle.frag" />
+    <None Include="Shaders\particle.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="practice_code.txt" />
+  </ItemGroup>
+</Project>

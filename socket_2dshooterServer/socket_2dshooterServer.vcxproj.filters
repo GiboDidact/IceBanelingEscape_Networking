@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ServerApp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerGameApp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="pchserver.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="ServerGameApp.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerApp.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="pchserver.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icebane_network_Server.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\GameData\Images\server.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{0672dd9b-bec3-4c83-b7ed-dbdda6292971}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
