@@ -39,4 +39,16 @@ Download developer at: https://www.dropbox.com/scl/fi/9auxlvhnn1mg4gpawo8fp/IceB
 - This game runs on x64 bit. All dependencies support x64.
 - Only runs on Windows platform.
 
-![283235952-b63b7d45-dc17-4a5e-ba28-c3289b044013](https://github.com/GiboDidact/IceBanelingEscape_Networking/assets/33635742/ebd5618c-73dc-47ae-8ef8-d66cfce5100f)
+![283235966-3bb5dc8f-98bb-49c7-9feb-e8fc52eba014](https://github.com/GiboDidact/IceBanelingEscape_Networking/assets/33635742/6ef7f4d4-571b-4c47-a1ef-5ade85d8d6e0)
+
+![283235964-bfeb1d40-b352-4aeb-8b7c-327bb4b9967f](https://github.com/GiboDidact/IceBanelingEscape_Networking/assets/33635742/b33f0602-77f5-492b-8f6d-9dcf8b3a6a9e)
+
+![283235957-0be1e410-22aa-49c1-a62b-5dd376c59f50](https://github.com/GiboDidact/IceBanelingEscape_Networking/assets/33635742/a1e1abee-83a6-4714-9b9c-4cacedf55d25)
+
+![283235952-b63b7d45-dc17-4a5e-ba28-c3289b044013](https://github.com/GiboDidact/IceBanelingEscape_Networking/assets/33635742/df366b86-8e93-4d3c-9404-0f1187f10f28)
+
+![283235961-ce86dbbb-9457-4381-b034-eedb2b9a0fe1](https://github.com/GiboDidact/IceBanelingEscape_Networking/assets/33635742/3c5d5b43-8a33-4cc5-a2b5-93177ef83445)
+
+
+
+
