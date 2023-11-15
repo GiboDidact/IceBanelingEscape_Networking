@@ -1,8 +1,8 @@
 # IceBanelingEscape_Networking
 Networked multiplayer game with TCP lobby system and UDP dedicated server
 
-Download distribution at: https://www.dropbox.com/scl/fi/jn56eex3d33uv12z5aha7/IceBanelingNetworkDistribution.rar?rlkey=j40awsek9yujoslru0uqkuyuu&dl=0
-Download developer at: https://www.dropbox.com/scl/fi/9auxlvhnn1mg4gpawo8fp/IceBanelingNetworkDeveloper.rar?rlkey=0jzmchr3v5fbzkdnbeu2twf66&dl=0
+-Download distribution at: https://www.dropbox.com/scl/fi/jn56eex3d33uv12z5aha7/IceBanelingNetworkDistribution.rar?rlkey=j40awsek9yujoslru0uqkuyuu&dl=0
+-Download developer at: https://www.dropbox.com/scl/fi/9auxlvhnn1mg4gpawo8fp/IceBanelingNetworkDeveloper.rar?rlkey=0jzmchr3v5fbzkdnbeu2twf66&dl=0
 
 ## Description
 - This game is a clone of Ice Baneling Escape on the StarCraft 2 Arcade. This project was done to learn and implement networking in games. It uses a dedicated server to connect multiple people. Theres a lobby system using TCP connection, and the game itself uses UDP.
