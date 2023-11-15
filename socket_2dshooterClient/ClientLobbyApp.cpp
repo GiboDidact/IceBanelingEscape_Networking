@@ -435,11 +435,14 @@ int ClientLobbyApp::handleUnexpectedDisconnect(int bytesreceived)
 	//look for connection check packet
 	if (findandremovepacketdata(PACKETCODE::CONNECTION_CHECK) != -1)
 	{
-		packets_info_this_frame.front();
-		global_data.ping = global_data.ping_timer.getTime();
-
-		global_data.connection_validated = true;
-		global_data.connect_check_timer.Begin();
+		if (!packets_info_this_frame.empty())
+		{
+			packets_info_this_frame.front();
+			global_data.ping = global_data.ping_timer.getTime();
+	
+			global_data.connection_validated = true;
+			global_data.connect_check_timer.Begin();
+		}
 	}
 
 	return 1;
