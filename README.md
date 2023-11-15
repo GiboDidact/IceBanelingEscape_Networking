@@ -39,5 +39,3 @@ Download developer at: https://www.dropbox.com/scl/fi/9auxlvhnn1mg4gpawo8fp/IceB
 - This game runs on x64 bit. All dependencies support x64.
 - Only runs on Windows platform.
 
-![Lobby](https://github.com/GiboDidact/IceBanelingEscape_Networking/tree/main/dev_images/lobby.png?raw=true "Title")
-
