@@ -1,8 +1,7 @@
 # IceBanelingEscape_Networking
 Networked multiplayer game with TCP lobby system and UDP dedicated server
 
-Ice Baneling Escape Network
-
+Descriptions:
 This game is a clone of Ice Baneling Escape on the StarCraft 2 Arcade. This project was done to learn and implement networking in games. It uses a dedicated server to connect multiple people. Theres a lobby system using TCP connection, and the game itself uses UDP.
     Server.exe is a headless application that runs the server that hosts the lobby and the games (all in 1 exe). Set the IPv4 address in Config.txt and port number to be able to use server. Use ipConfig on command prompt to see your ipv4 address.
     Client.exe is the application you will use to actually play the game, you can run multiple instances of it, create multiple lobbies, and play multiple games
