@@ -40,5 +40,5 @@ Download developer at: https://www.dropbox.com/scl/fi/9auxlvhnn1mg4gpawo8fp/IceB
 - Only runs on Windows platform.
 
 
-![alt text](https://github.com/GiboDidact/IceBanelingEscape_Networking/tree/main/dev_images/lobby.png?raw=true)
+![Lobby](https://github.com/GiboDidact/IceBanelingEscape_Networking/tree/main/dev_images/lobby.png?)
 
