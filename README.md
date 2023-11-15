@@ -1,10 +1,10 @@
 # IceBanelingEscape_Networking
 Networked multiplayer game with TCP lobby system and UDP dedicated server
 
-Descriptions:
-This game is a clone of Ice Baneling Escape on the StarCraft 2 Arcade. This project was done to learn and implement networking in games. It uses a dedicated server to connect multiple people. Theres a lobby system using TCP connection, and the game itself uses UDP.
-    Server.exe is a headless application that runs the server that hosts the lobby and the games (all in 1 exe). Set the IPv4 address in Config.txt and port number to be able to use server. Use ipConfig on command prompt to see your ipv4 address.
-    Client.exe is the application you will use to actually play the game, you can run multiple instances of it, create multiple lobbies, and play multiple games
+Descriptions:\n
+This game is a clone of Ice Baneling Escape on the StarCraft 2 Arcade. This project was done to learn and implement networking in games. It uses a dedicated server to connect multiple people. Theres a lobby system using TCP connection, and the game itself uses UDP.\n
+\t    Server.exe is a headless application that runs the server that hosts the lobby and the games (all in 1 exe). Set the IPv4 address in Config.txt and port number to be able to use server. Use ipConfig on command prompt to see your ipv4 address.\n
+\t    Client.exe is the application you will use to actually play the game, you can run multiple instances of it, create multiple lobbies, and play multiple games\n
 
 Config.txt has variables you can change. If you destroy or change the file incorrectly it will recreate it with the default settings
     In SharedSrc/Config.h in codebase that is where you can hardcode change any config variable, and you will see thats what generates Config.txt
